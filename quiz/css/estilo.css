@@ -10,11 +10,12 @@ header{
     padding-left: 20px;
     padding-right: 20px;
     text-align: center;
-    background-color: #858585;
+    background-color: #557368;
     color: #2E3140;
     display: flex;
     justify-content: space-between;
     align-items: center;
+
 
 }
 
@@ -27,7 +28,7 @@ body{
 
 main{
    
-    background-color: #858585;
+    background-color: #2E3140;
     flex-wrap: wrap;
 
     flex: 1;
@@ -48,7 +49,7 @@ a{
 }
 
 #mascote{
-    width: 100px;
+    width: 150px;
 }
 
 #alternat{
@@ -57,8 +58,8 @@ a{
 }
 
 #pergunta{
-    background-color: #204a57;
-    color: #000000;
+    background-color: #548C68;
+    color: #2E3140;
     min-width: 300px;
     max-width: 600px;
     width: 70%;
@@ -66,7 +67,7 @@ a{
     border-radius: 10px;
     box-shadow: 2px 3px rgba(0, 0, 0, 0.2);
     padding-bottom: 20px;
-
+    
     
 }
 
@@ -74,7 +75,6 @@ a{
     text-align: center;
     padding: 25px;
     font-size: 1.3em;
-    font-weight: bold; 
 
 }
 
@@ -91,7 +91,7 @@ a{
 }
 
 .botao{
-    background-color: #626a9c;
+    background-color: #a2ae7c;
     border: none;
     margin: 5px;
     display: flex;
@@ -118,16 +118,16 @@ a{
 
 .alter{
     
-    color: #000000;
+    color: #2E3140;
     font-size: 20px;
     display: flex;
     align-items: center;
     flex: 1 1 0;
-    margin-left: 2px;
+
 }
 
 .botao:hover{
-    background-color: #2d3360;
+    background-color: #8CA680;
     transition: all 0.4s;
     cursor: pointer;
     transform: translate(-3px, -2px);
@@ -139,8 +139,8 @@ a{
 }
 
 .b{
-    color: #000000;
-    background-color: #626a9c;
+    color: #2E3140;
+    background-color: #B2BF84;
     display: block;
     margin: auto;
     padding: 10px 20px;
@@ -154,11 +154,11 @@ a{
     transform: translate(-3px, -2px);
     transition: all 0.5s;
     cursor: pointer;
-    background-color: #2d3360;
+    background-color: #8CA680;
 
 }
 
-#paiMascote{
+#paiAmora{
     position: absolute;
     bottom: 68px;          
     left: 50%;
@@ -174,21 +174,21 @@ a{
 }
 
 
-.mascotePonto{
+.amoraPonto{
     width: 27vw;
     max-width: 200px;
     min-width: 100px;  
 }
 
 footer{
-    background-color: #858585;
+    background-color: #557368;
     text-align: center;
     padding: 6px;
 
 }
 
 .botaoSelecionado{
-    background-color: #9a1b67;
+    background-color: #ffca28;
 }
 
 .botaoErrado{

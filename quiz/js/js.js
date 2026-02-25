@@ -10,46 +10,46 @@ var cont = 0;
 
 const perguntas = [
     {
-        questao: "Q 1",
-        alternativas: [{alternativa: "alt 1", correto: true}, {alternativa: "alt 2", correto: false}, {alternativa: "alt 3", correto: false}, {alternativa: "alt 4", correto: false}]
+        questao: "Durante um temporal, qual a melhor atitude?",
+        alternativas: [{alternativa: "Ficar dentro de casa e longe de janelas.", correto: true}, {alternativa: "Abrigar-se debaixo de árvore.", correto: false}, {alternativa: "Sair para filmar a chuva.", correto: false}, {alternativa: "Aproveitar para tomar um banho de chuva.", correto: false}]
 
     },
     {   
-        questao: "Q 2",
-        alternativas: [{alternativa: "alt 1", correto: false}, {alternativa: "alt 2", correto: false}, {alternativa: "alt 3", correto: true}, {alternativa: "alt 4", correto: false}]
+        questao: "Questão 2",
+        alternativas: [{alternativa: "Opção 1.2", correto: false}, {alternativa: "Opção 2.2", correto: false}, {alternativa: "Opção 3.2", correto: true}, {alternativa: "Opção 4.2", correto: false}]
 
     },
     {
-        questao: "Q 3",
-        alternativas: [{alternativa: "alt 1", correto: false}, {alternativa: "alt 2", correto: false}, {alternativa: "alt 3", correto: false}, {alternativa: "alt 4", correto: true}]
+        questao: "Questão 3",
+        alternativas: [{alternativa: "Opção 1.3", correto: false}, {alternativa: "Opção 2.3", correto: false}, {alternativa: "Opção 3.3", correto: false}, {alternativa: "Opção 4.3", correto: true}]
     },
     {
-        questao: "Q 4",
-        alternativas: [{alternativa: "alt 1", correto: false}, {alternativa: "alt 2", correto: true}, {alternativa: "alt 3", correto: false}, {alternativa: "alt 4", correto: false}]
+        questao: "Questão 4",
+        alternativas: [{alternativa: "Opção 1.4", correto: false}, {alternativa: "Opção 2.4", correto: true}, {alternativa: "Opção 3.4", correto: false}, {alternativa: "Opção 4.4", correto: false}]
     },
     {
-        questao: "Q 5",
-        alternativas: [{alternativa: "alt 1", correto: true}, {alternativa: "alt 2", correto: false}, {alternativa: "alt 3", correto: false}, {alternativa: "alt 4", correto: false}]
+        questao: "Questão 5",
+        alternativas: [{alternativa: "Opção 1.5", correto: true}, {alternativa: "Opção 2.5", correto: false}, {alternativa: "Opção 3.5", correto: false}, {alternativa: "Opção 4.5", correto: false}]
     },
     {
-        questao: "Q 6",
-        alternativas: [{alternativa: "alt 1", correto: true}, {alternativa: "alt 2", correto: false}, {alternativa: "alt 3", correto: false}, {alternativa: "alt 4", correto: false}]
+        questao: "Questão 6",
+        alternativas: [{alternativa: "Opção 1.6", correto: true}, {alternativa: "Opção 2.6", correto: false}, {alternativa: "Opção 3.6", correto: false}, {alternativa: "Opção 4.6", correto: false}]
     },
     {
-        questao: "Q 7",
-        alternativas: [{alternativa: "alt 1", correto: false}, {alternativa: "alt 2", correto: false}, {alternativa: "alt 3", correto: false}, {alternativa: "alt 4", correto: true}]
+        questao: "Questão 7",
+        alternativas: [{alternativa: "Opção 1.7", correto: false}, {alternativa: "Opção 2.7", correto: false}, {alternativa: "Opção 3.7", correto: false}, {alternativa: "Opção 4.7", correto: true}]
     },
     {
-        questao: "Q 8",
-        alternativas: [{alternativa: "alt 1", correto: false}, {alternativa: "alt 2", correto: true}, {alternativa: "alt 3", correto: false}, {alternativa: "alt 4", correto: false}]
+        questao: "Questão 8",
+        alternativas: [{alternativa: "Opção 1.8", correto: false}, {alternativa: "Opção 2.8", correto: true}, {alternativa: "Opção 3.8", correto: false}, {alternativa: "Opção 4.8", correto: false}]
     },
     {
-        questao: "Q 9",
-        alternativas: [{alternativa: "alt 1", correto: true}, {alternativa: "alt 2", correto: false}, {alternativa: "alt 3", correto: false}, {alternativa: "alt 4", correto: false}]
+        questao: "Questão 9",
+        alternativas: [{alternativa: "Opção 1.9", correto: true}, {alternativa: "Opção 2.9", correto: false}, {alternativa: "Opção 3.9", correto: false}, {alternativa: "Opção 4.9", correto: false}]
     },
     {
-        questao: "Q 10",
-        alternativas: [{alternativa: "alt 1", correto: true}, {alternativa: "alt 2", correto: false}, {alternativa: "alt 3", correto: false}, {alternativa: "alt 4", correto: false}]
+        questao: "Questão 10",
+        alternativas: [{alternativa: "Opção 1.10", correto: true}, {alternativa: "Opção 2.10", correto: false}, {alternativa: "Opção 3.10", correto: false}, {alternativa: "Opção 4.10", correto: false}]
     }
 
 
@@ -59,11 +59,11 @@ window.onload = function(){
 
     this.document.getElementById('recomecar').style.display = 'none'
 
-    this.document.getElementById('mascote1').style.display = 'none'
+    this.document.getElementById('amora1').style.display = 'none'
 
-    this.document.getElementById('mascote2').style.display = 'none'
+    this.document.getElementById('amora2').style.display = 'none'
 
-    this.document.getElementById('mascote3').style.display = 'none'
+    this.document.getElementById('amora3').style.display = 'none'
 
     document.getElementById("verificar").disabled = true;
 
@@ -115,16 +115,16 @@ function enviar(){
 
 
         if(pontos >= 6){
-            document.getElementById('mascote1').style.display = 'block'
+            document.getElementById('amora1').style.display = 'block'
 
             questao.innerText = "Parabéns! Você acertou " + pontos + "/" + perguntas.length;
 
         } else if(pontos == 5){
-            document.getElementById('mascote2').style.display = 'block'
+            document.getElementById('amora2').style.display = 'block'
 
             questao.innerText = "Eba! Você acertou " + pontos + "/" + perguntas.length;
         } else {
-            document.getElementById('mascote3').style.display = 'block'
+            document.getElementById('amora3').style.display = 'block'
 
             questao.innerText = "Que pena! Você acertou " + pontos + "/" + perguntas.length;
         }
