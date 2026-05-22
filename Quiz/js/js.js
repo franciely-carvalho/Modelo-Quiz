@@ -6,7 +6,7 @@ const alt4 = document.getElementById('a4');
 var pontos = 0;
 respostaSelecionada = -1;
 var cont = 0;
-
+//teste2
 
 const perguntas = [
     {
